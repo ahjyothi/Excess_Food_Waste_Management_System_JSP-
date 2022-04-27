@@ -28,8 +28,8 @@ public class SendMailSSL {
 	private PreparedStatement ps;
 	
 	public String HOST = "smtp.gmail.com";	
-	public String USERNAME_FROM = "efms2020.spt@gmail.com";   /* ADMIN email paste here */
-	public String PASSWORD = "efms@nxtgio";
+	public String USERNAME_FROM = "admin@gmail.com";   /* ADMIN email paste here */
+	public String PASSWORD = "password";
 	public String SPORT = "465";
 
 

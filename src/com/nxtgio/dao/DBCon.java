@@ -11,8 +11,8 @@ public class DBCon {
 	public static Connection getCon() {
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-			con = DriverManager.getConnection("jdbc:sqlserver://192.168.1.121:1433;databaseName=sptesting",
-					"jyothi", "12345");
+			con = DriverManager.getConnection("jdbc:sqlserver://IP:port;databaseName=dbname",
+					"username", "password");
 		} catch (ClassNotFoundException | SQLException ex) {
 			ex.printStackTrace();
 		}
